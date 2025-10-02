@@ -94,7 +94,7 @@ def generate_dataset(n_records):
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
     df.to_csv(OUTPUT_FILE, index=False)
-    print(f"✅ Dataset generated: {OUTPUT_FILE} with {n_records} records.")
+    print(f" Dataset generated: {OUTPUT_FILE} with {n_records} records.")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
