@@ -1,0 +1,15 @@
+streamlit
+opencv-python
+numpy
+pandas
+reportlab
+fpdf
+scikit-learn
+tensorflow
+keras
+matplotlib
+joblib
+plotly
+pywhatkit
+pyautogui
+pyperclip
